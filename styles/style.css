@@ -64,6 +64,7 @@
   text-align: center;
   color: var(--decor-color);
   text-transform: lowercase;
+  cursor: pointer;
 }
 
 .header__theme-menu-button:hover {
@@ -161,7 +162,7 @@
 .section__title {
   font-weight: 700;
   font-size: var(--font-size);
-  line-height: 1.30;
+  line-height: 1.3;
   color: var(--decor-color);
 }
 
@@ -321,28 +322,26 @@
   }
 
   .gallery__image {
-    inline-size: 100%;
     block-size: 100%;
-    object-fit: cover;
   }
 
-  .gallery__image:nth-child(1) {
+  .gallery__item:nth-child(1) {
     grid-area: sunset;
   }
 
-  .gallery__image:nth-child(2) {
+  .gallery__item:nth-child(2) {
     grid-area: ice;
   }
 
-  .gallery__image:nth-child(3) {
+  .gallery__item:nth-child(3) {
     grid-area: tape;
   }
 
-  .gallery__image:nth-child(4) {
+  .gallery__item:nth-child(4) {
     grid-area: books;
   }
 
-  .gallery__image:nth-child(5) {
+  .gallery__item:nth-child(5) {
     grid-area: street;
   }
 }
